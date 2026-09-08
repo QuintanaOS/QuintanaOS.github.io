@@ -1,0 +1,88 @@
+/*
+  Design tokens — Quintana Operational Solutions
+  Change values here to re-theme the entire site.
+*/
+
+:root {
+  /* ---- Brand color ---- */
+  --navy-900: #001220; /* dark navy — contact section, footer, photo blocks */
+  --navy-800: #002e5a; /* logo blue — buttons, icons, text accents */
+
+  /* ---- Accent (muted metal — used sparingly, never decoratively) ---- */
+  --accent-600: #a35a24;
+  --accent-500: #b06a2e;
+  --accent-100: #f4e8dc;
+
+  /* ---- Neutrals ---- */
+  --ink-900: #101823;
+  --ink-700: #33404d;
+  --ink-500: #5b6b7a;
+  --ink-300: #97a4b0;
+  --line-200: #dde3e9;
+  --line-100: #eaeef2;
+  --paper-000: #ffffff;
+  --paper-050: #f8f9fb;
+  --paper-100: #f2f4f7;
+
+  /* ---- Semantic aliases ---- */
+  --color-bg: var(--paper-000);
+  --color-bg-alt: var(--paper-050);
+  --color-text: var(--ink-900);
+  --color-text-soft: var(--ink-500);
+  --color-border: var(--line-200);
+  --color-brand: var(--navy-800);
+  --color-brand-dark: var(--navy-900);
+  --color-accent: var(--accent-500);
+
+  /* ---- Typography ----
+     Headings use a confident geometric grotesque (pairs with the wordmark).
+     Body copy stays on a neutral, highly-legible sans.
+     Monospace is reserved for tabular data only (dates, figures) — not decoration. */
+  --font-heading: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono",
+    Menlo, monospace;
+
+  --fs-900: clamp(2.5rem, 1.9rem + 2.6vw, 4.1rem);    /* hero H1 */
+  --fs-800: clamp(2rem, 1.7rem + 1.5vw, 2.85rem);     /* section H2 */
+  --fs-700: clamp(1.4rem, 1.25rem + 0.7vw, 1.75rem);  /* H3 */
+  --fs-600: clamp(1.1rem, 1.02rem + 0.35vw, 1.3rem);  /* H4 / lead */
+  --fs-500: 1.125rem; /* body large */
+  --fs-400: 1rem;     /* body */
+  --fs-300: 0.9rem;   /* small */
+  --fs-200: 0.78rem;  /* label */
+
+  --lh-tight: 1.15;
+  --lh-snug: 1.35;
+  --lh-normal: 1.65;
+
+  /* ---- Spacing scale ---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  /* ---- Layout ---- */
+  --container-max: 1440px;
+  --container-pad: clamp(1.25rem, 4vw, 4rem);
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --header-h: 84px;
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 150ms;
+  --dur-med: 300ms;
+
+  /* ---- Effects ---- */
+  --shadow-sm: 0 1px 2px rgba(16, 24, 35, 0.06), 0 1px 1px rgba(16, 24, 35, 0.04);
+  --shadow-md: 0 8px 24px rgba(16, 24, 35, 0.08), 0 2px 6px rgba(16, 24, 35, 0.05);
+  --shadow-lg: 0 20px 48px rgba(0, 18, 32, 0.14), 0 4px 12px rgba(0, 18, 32, 0.06);
+}
