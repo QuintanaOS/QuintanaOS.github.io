@@ -19,6 +19,46 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/pages.css">
+
+  <!-- Structured data: Organization + Person (founder). Add "sameAs" URLs
+       to the Organization object below once social profiles exist. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.quintanaos.com/#organization",
+        "name": "Quintana Operational Solutions LLC",
+        "url": "https://www.quintanaos.com/",
+        "logo": "https://www.quintanaos.com/assets/logo/quintana-logo-navy.png",
+        "description": "Custom software development and IT consulting for industrial and operational businesses.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New Orleans",
+          "addressRegion": "LA",
+          "addressCountry": "US"
+        },
+        "founder": { "@id": "https://www.quintanaos.com/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.quintanaos.com/#person",
+        "name": "Nicholas Quintana",
+        "jobTitle": "Founder & Managing Member",
+        "worksFor": { "@id": "https://www.quintanaos.com/#organization" },
+        "email": "info@quintanaos.com",
+        "url": "https://www.quintanaos.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New Orleans",
+          "addressRegion": "LA",
+          "addressCountry": "US"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>

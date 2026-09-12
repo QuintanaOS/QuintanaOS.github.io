@@ -1,0 +1,16 @@
+# Quintana Operational Solutions — robots.txt
+
+User-agent: *
+Allow: /
+
+# AI crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.quintanaos.com/sitemap.xml
