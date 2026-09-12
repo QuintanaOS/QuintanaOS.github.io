@@ -8,10 +8,10 @@
   --navy-900: #001220; /* dark navy — contact section, footer, photo blocks */
   --navy-800: #002e5a; /* logo blue — buttons, icons, text accents */
 
-  /* ---- Accent (muted metal — used sparingly, never decoratively) ---- */
-  --accent-600: #a35a24;
-  --accent-500: #b06a2e;
-  --accent-100: #f4e8dc;
+  /* ---- Accent (used sparingly, never decoratively) ---- */
+  --accent-600: #9a1216;
+  --accent-500: #ce181e;
+  --accent-100: #fbe6e7;
 
   /* ---- Neutrals ---- */
   --ink-900: #101823;

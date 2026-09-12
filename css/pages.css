@@ -140,6 +140,10 @@
   color: var(--color-text);
 }
 
+.founder-bio h2 {
+  margin-bottom: var(--space-6);
+}
+
 .founder-bio > p {
   margin-bottom: var(--space-5);
   font-size: var(--fs-500);

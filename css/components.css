@@ -739,6 +739,10 @@
   border-top: 1px solid var(--color-border);
 }
 
+.value-item h3 {
+  margin-bottom: var(--space-3);
+}
+
 .value-item__number {
   font-family: var(--font-heading);
   color: var(--ink-300);
